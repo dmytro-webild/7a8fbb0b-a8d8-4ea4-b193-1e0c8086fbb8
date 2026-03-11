@@ -85,7 +85,7 @@ export default function LandingPage() {
           tagIcon={Award}
           tagAnimation="slide-up"
           buttons={[
-            { text: "View Full Catalog", href: "contact" }
+            { text: "Request Sample Kit", href: "contact" }
           ]}
           buttonAnimation="slide-up"
           textboxLayout="default"
