@@ -8,7 +8,7 @@ import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import FeatureCardTwentyFour from '@/components/sections/feature/FeatureCardTwentyFour';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
-import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
+import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import { Award, Building2, CheckCircle, Crown, Globe, Mail, MessageSquare, Shield, Sparkles, Star, Target, TrendingUp, Users } from "lucide-react";
@@ -140,10 +140,12 @@ export default function LandingPage() {
           useInvertedBackground={true}
           features={[
             {
-              id: "1",              title: "Uncompromising Quality Control",              author: "Production Team",              description: "Every batch undergoes rigorous testing and verification to ensure consistent excellence. We maintain laboratory-standard specifications that exceed industry requirements.",              tags: ["Tested", "Verified", "Premium"],              imageSrc: "http://img.b2bpic.net/free-photo/doctors-working-together-medical-research_23-2149345459.jpg",              imageAlt: "Quality control testing at Prince Food facility"
+              id: "1",              title: "Uncompromising Quality Control",              author: "Production Team",              description: "Every batch undergoes rigorous testing and verification to ensure consistent excellence. We maintain laboratory-standard specifications that exceed industry requirements.",              tags: ["Tested", "Verified", "Premium"],
+              imageSrc: "http://img.b2bpic.net/free-photo/doctors-working-together-medical-research_23-2149345459.jpg",              imageAlt: "Quality control testing at Prince Food facility"
             },
             {
-              id: "2",              title: "Ethical Ingredient Sourcing",              author: "Procurement",              description: "We partner with trusted suppliers who share our commitment to quality and sustainability. Every ingredient is selected for its purity, provenance, and contribution to bold flavour profiles.",              tags: ["Ethical", "Sourced", "Sustainable"],              imageSrc: "http://img.b2bpic.net/free-photo/bowl-chickpeas-are-poured-with-salt-beer-setup_140725-1648.jpg",              imageAlt: "Premium ingredient sourcing and supplier relationships"
+              id: "2",              title: "Ethical Ingredient Sourcing",              author: "Procurement",              description: "We partner with trusted suppliers who share our commitment to quality and sustainability. Every ingredient is selected for its purity, provenance, and contribution to bold flavour profiles.",              tags: ["Ethical", "Sourced", "Sustainable"],
+              imageSrc: "http://img.b2bpic.net/free-photo/bowl-chickpeas-are-poured-with-salt-beer-setup_140725-1648.jpg",              imageAlt: "Premium ingredient sourcing and supplier relationships"
             }
           ]}
           animationType="slide-up"
@@ -169,31 +171,29 @@ export default function LandingPage() {
       </div>
 
       <div id="testimonials" data-section="testimonials">
-        <TestimonialCardThirteen
-          title="What Our Partners Say"
-          description="Hear from the chefs, restaurateurs, and procurement professionals who trust Prince Food daily"
+        <TestimonialCardTen
+          title="Trusted by Industry Leaders"
+          description="See what our customers have to say"
           tag="Client Testimonials"
           tagIcon={MessageSquare}
           tagAnimation="slide-up"
           textboxLayout="default"
-          useInvertedBackground={true}
-          showRating={true}
+          useInvertedBackground={false}
           testimonials={[
             {
-              id: "1",              name: "Chef Marcus Richardson",              handle: "@michelin_kitchen",              testimonial: "Prince Food ingredients are non-negotiable in our kitchen. The consistency and bold flavour profiles elevate every dish. Their commitment to quality matches our own exacting standards.",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/happy-young-professional-posing-office_1262-21170.jpg",              imageAlt: "Chef Marcus Richardson"
+              id: "1",              title: "Personalized Excellence",              quote: "Prince Food ingredients are non-negotiable in our kitchen. The consistency and bold flavour profiles elevate every dish. Their commitment to quality matches our own exacting standards.",              name: "Chef Marcus Richardson",              role: "Michelin-Starred Chef",              imageSrc: "http://img.b2bpic.net/free-photo/happy-young-professional-posing-office_1262-21170.jpg",              imageAlt: "Chef Marcus Richardson"
             },
             {
-              id: "2",              name: "Sarah Whitmore",              handle: "@premium_hospitality",              testimonial: "As a hotel group procurement manager, I've evaluated countless suppliers. Prince Food stands out not just for their premium quality but their reliability and professionalism. They've become essential to our operations.",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/happy-smiling-man-with-amulet-neck-is-posing-photographer-dark-photo-studio_613910-3849.jpg",              imageAlt: "Sarah Whitmore"
+              id: "2",              title: "Reliable Partnership",              quote: "As a hotel group procurement manager, I've evaluated countless suppliers. Prince Food stands out not just for their premium quality but their reliability and professionalism. They've become essential to our operations.",              name: "Sarah Whitmore",              role: "Hotel Group Procurement Manager",              imageSrc: "http://img.b2bpic.net/free-photo/happy-smiling-man-with-amulet-neck-is-posing-photographer-dark-photo-studio_613910-3849.jpg",              imageAlt: "Sarah Whitmore"
             },
             {
-              id: "3",              name: "David Chen",              handle: "@gourmet_retail",              testimonial: "Our customers specifically request Prince Food ingredients. The handcrafted nature and authentic flavour are exactly what discerning food lovers are searching for. We wouldn't stock anything else.",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport-terminal_107420-85070.jpg",              imageAlt: "David Chen"
+              id: "3",              title: "Customer Favorites",              quote: "Our customers specifically request Prince Food ingredients. The handcrafted nature and authentic flavour are exactly what discerning food lovers are searching for. We wouldn't stock anything else.",              name: "David Chen",              role: "Gourmet Retail Owner",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport-terminal_107420-85070.jpg",              imageAlt: "David Chen"
             },
             {
-              id: "4",              name: "Emma Sutton",              handle: "@elite_catering",              testimonial: "Working with Prince Food has transformed our catering business. Their premium ingredients allow us to deliver exceptional experiences that keep clients coming back. The support and communication are outstanding.",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/portrait-woman-smiling-kitchen_107420-12357.jpg",              imageAlt: "Emma Sutton"
+              id: "4",              title: "Business Transformation",              quote: "Working with Prince Food has transformed our catering business. Their premium ingredients allow us to deliver exceptional experiences that keep clients coming back. The support and communication are outstanding.",              name: "Emma Sutton",              role: "Elite Catering Director",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-woman-smiling-kitchen_107420-12357.jpg",              imageAlt: "Emma Sutton"
             }
           ]}
           animationType="slide-up"
-          carouselMode="buttons"
         />
       </div>
 
