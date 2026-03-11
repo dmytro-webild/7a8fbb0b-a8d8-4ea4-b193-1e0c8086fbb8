@@ -187,13 +187,12 @@ export default function LandingPage() {
               id: "2",              title: "Reliable Partnership",              quote: "As a hotel group procurement manager, I've evaluated countless suppliers. Prince Food stands out not just for their premium quality but their reliability and professionalism. They've become essential to our operations.",              name: "Sarah Whitmore",              role: "Hotel Group Procurement Manager",              imageSrc: "http://img.b2bpic.net/free-photo/happy-smiling-man-with-amulet-neck-is-posing-photographer-dark-photo-studio_613910-3849.jpg",              imageAlt: "Sarah Whitmore"
             },
             {
-              id: "3",              title: "Customer Favorites",              quote: "Our customers specifically request Prince Food ingredients. The handcrafted nature and authentic flavour are exactly what discerning food lovers are searching for. We wouldn't stock anything else.",              name: "David Chen",              role: "Gourmet Retail Owner",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport-terminal_107420-85070.jpg",              imageAlt: "David Chen"
+              id: "3",              title: "Customer Favorites",              quote: "Our customers specifically request Prince Food ingredients. The handcrafted nature and authentic flavour are exactly what discerning food lovers are searching for. We would not stock anything else.",              name: "David Chen",              role: "Gourmet Retail Owner",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport-terminal_107420-85070.jpg",              imageAlt: "David Chen"
             },
             {
               id: "4",              title: "Business Transformation",              quote: "Working with Prince Food has transformed our catering business. Their premium ingredients allow us to deliver exceptional experiences that keep clients coming back. The support and communication are outstanding.",              name: "Emma Sutton",              role: "Elite Catering Director",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-woman-smiling-kitchen_107420-12357.jpg",              imageAlt: "Emma Sutton"
             }
           ]}
-          animationType="slide-up"
         />
       </div>
 
